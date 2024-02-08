@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite">
+  <test name="Test">
+    <classes>
+    <!-- Executing Multiple Class Files having same package through TestSuite.xml file -->
+      <class name="browsers.Test1_Chrome"/>
+      <class name="browsers.Test1_Edge"/>
+      <class name="browsers.Test1_FireFox"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

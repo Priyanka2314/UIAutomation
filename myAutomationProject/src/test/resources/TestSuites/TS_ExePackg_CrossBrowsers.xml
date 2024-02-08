@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <packages>
+    <!-- Executing Single package through TestSuite.xml file -->
+       <package name="browsers"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

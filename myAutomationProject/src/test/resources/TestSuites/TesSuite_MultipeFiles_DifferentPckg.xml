@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+    <!-- Executing Multiple Class Files from different package through TestSuite.xml file -->
+      <class name="topic_TestNGExamples.Test1_SingleMethods"/>
+      <class name="testAutomationFW.DataDriven.DataDriven_SDLoginFailureScreenshot"/>
+      <class name="topic_ObjectRepository.Test_ReadProperties"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

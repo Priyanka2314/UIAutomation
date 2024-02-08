@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+     <!-- Executing Single Class File from same package through TestSuite.xml file -->
+      <class name="mypackage1.Test1_Chrome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

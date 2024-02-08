@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestData_Validata_Chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="topic_ITest.Testrescontext_for_ControlParameter_1stWay"/>
+    </classes>
+  </test> 
+</suite>

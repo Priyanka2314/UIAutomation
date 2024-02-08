@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <groups>
+     <run>
+      <include name="ui"></include>
+      <include name="security"/>
+      <!-- <exclude name="security"/> -->
+     </run>
+    </groups>
+    <classes>
+      <class name="topic_BeforeAfterGroup.BeforeAfterGroup"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

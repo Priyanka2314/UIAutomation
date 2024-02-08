@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestData_Validata_Chrome">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="standard_user"></parameter>
+    <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="topic_ITest.Testrescontext2forControlParameter2ndWay"/>
+    </classes>
+  </test> 
+  <test name="TestData_ValidUsername_InvalidPassword_ff">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="standard_user"></parameter>
+    <parameter name="password" value="secret"></parameter>
+    <classes>
+      <class name="topic_ITest.Testrescontext2forControlParameter2ndWay"/>
+    </classes>
+    </test> 
+    <test name="TestData_InvalidUsername_validPassword_Edge">
+    <parameter name="browser" value="edge"/>
+    <parameter name="username" value="standard"></parameter>
+    <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="topic_ITest.Testrescontext2forControlParameter2ndWay"/>
+    </classes>
+    </test>
+    <test name="TestData_Invalidata_Chrome">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="standarduser"></parameter>
+    <parameter name="password" value="secret"></parameter>
+    <classes>
+      <class name="topic_ITest.Testrescontext2forControlParameter2ndWay"/>
+    </classes>
+    </test> 
+</suite>
